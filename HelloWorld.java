@@ -25,8 +25,10 @@ import java.util.Scanner;
                    {System.out.printf (nome + ", Parabéns, você foi aprovado com média:  %.1f",  M);}
                     else {System.out.printf (nome + ", você não atingiu a média... Sua média foi: %.1f", M);}
               
+          /*Lembrar de fechar o scanner!
+          Lembrar de usar o %2.f para casa decimais,
+          com o printf!*/ 
           
-          
-              
+           scanner.close();   
      }
  }
